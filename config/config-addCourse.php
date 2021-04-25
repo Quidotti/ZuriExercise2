@@ -56,11 +56,11 @@ if(isset($_GET['id'])){
         $rows = mysqli_fetch_assoc($result);
     }else{
 
-        header("Location: ./viewCourse.php");
+        // header("Location: ./viewCourse.php");
     }
 }else{
 
-    header("Location: ./viewCourse.php");
+    // header("Location: ./viewCourse.php");
 }
 
 ?>
